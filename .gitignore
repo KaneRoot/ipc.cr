@@ -1,0 +1,7 @@
+/docs/
+/lib/
+/.shards/
+*.dwarf
+old
+shard.lock
+*.log

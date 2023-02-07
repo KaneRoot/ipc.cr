@@ -1,0 +1,20 @@
+name: ipc
+version: 0.1.0
+
+authors:
+  - Philippe Pittoli <karchnu@karchnu.fr>
+
+description: |
+  High-level Crystal bindings to libipc.
+
+crystal: 1.7.1
+
+dependencies:
+  cbor:
+    git: https://git.baguette.netlib.re/Baguette/crystal-cbor
+    branch: master
+
+libraries:
+  libipc: ">= 0.1"
+
+license: ISC
