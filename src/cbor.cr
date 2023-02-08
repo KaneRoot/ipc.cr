@@ -1,5 +1,5 @@
 require "cbor"
-require "./main.cr"
+require "./ipc.cr"
 
 # IPC::CBOR is the root class for all exchanged messages (using CBOR).
 # IPC::CBOR inherited classes have a common 'type' class attribute,
